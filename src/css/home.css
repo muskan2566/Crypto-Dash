@@ -1,0 +1,145 @@
+.effect{
+    background: rgba(65, 70, 117, 0.25);
+    box-shadow: 0 8px 15px 0 #515181;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    
+}
+.nav-icon{
+    color: rgb(240, 123, 102);
+}
+.nav-list{
+    border-right:rgb(255, 255, 255);
+    list-style: none;
+    margin-left: -50%;
+    margin-top:200%;
+}
+.li{
+   color:rgb(204, 197, 197);
+}
+.effect-nav{
+        background: rgba(71, 75, 112, 0.25);
+        box-shadow: 0 8px 15px 0 #515181;
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        padding: 5% ;
+        margin-top: 30%;
+        margin-left: 15%;
+}
+
+.main-container{
+    background-color:#262b4d;
+    margin: 3%;
+    padding: 3%;
+    box-shadow: 0 8px 30px 0 #656ca8;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    color: rgb(194, 187, 187);
+    display: flex;
+}
+.sub-div{
+    display: flex;
+}
+.currency-icon{
+    width: 150px;
+    height: 150px;
+}
+.symbole-div{
+    padding: 2%; 
+    display: flex;
+    margin: 2%;
+}
+.symbole-name{
+    margin: 4%;
+}
+.small-img{
+    width: 12%;
+    margin-right: 2%;
+}
+.market-cap{
+    padding: 2%;
+    margin: 7%;
+    text-align: center;
+}
+.market-icon{
+    color: rgb(10, 5, 43);
+}
+.price-graph{
+    text-align: center;
+    padding: 1%;
+    margin: 0% 7%;
+}
+.graph{
+    height: 100px;
+    width: 250px;
+}
+.changeprice-icon1{
+    color: green;
+    margin-left: 30%;
+}
+.changeprice-icon2{
+    margin-left: 30%;
+    color: rgb(218, 32, 32)
+
+}
+
+.effect-price{
+    background: rgba(71, 75, 112, 0.25);
+    box-shadow: 0 8px 10px 0 #020313;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    padding: 5% ;
+    margin-top: 30%;
+    margin-left: 15%;
+}
+.last-price{
+    margin: 2.5%;
+}
+.price{
+    margin: 5%;
+}
+.search-div{
+    padding: 2%;
+    height: 500px;
+    width: 24%;
+    margin-left: 2%;
+    text-align: center;
+}
+.search-input{
+    padding: 5% 11%;
+    background-color: #1d2244;
+    color: rgb(180, 187, 194);
+    border: none;
+}
+.enter-button{
+    margin-left: 3%;
+    padding: 4.2%;
+}
+.display-input{
+    display: flex;
+    margin-top: 10%;
+    padding: 0% 4%;
+    color: rgb(180, 187, 194);
+    border: none;
+}
+.display-input>p{
+    padding: 2%;
+}
+.effect-display{
+    background: rgba(71, 75, 112, 0.25);
+    box-shadow: 0 8px 10px 0 #0b0b25;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 1px;
+}
+.effect-search{
+     background: rgba(71, 75, 112, 0.25);
+    box-shadow: 0 8px 10px 0 #0f112e;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
