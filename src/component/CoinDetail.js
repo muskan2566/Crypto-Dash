@@ -7,9 +7,11 @@ export default function CoinDetail( {d} ) {
         name,
         logo_url,
         price,
-        price_date,
+        volume,
         market_cap,
-        rank,   
+        price_change,
+        rank,  
+
     } = d;
     return (
         <>
@@ -29,7 +31,7 @@ export default function CoinDetail( {d} ) {
                             
                            {/* <p className="changeprice-icon1"><i class="fas fa-2x fa-caret-up"></i></p>
                            <p className="changeprice-icon2"><i class="fas fa-2x fa-caret-down"></i></p> */}
-                            <p className="effect-price change-percent">%<i class="fas fa-2x changeprice-icon1 fa-caret-up"></i></p> 
+                            <p className="effect-price change-percent">{price_change}%<i class="fas fa-2x changeprice-icon1 fa-caret-up"></i></p> 
                         </div>
                         <div className="last-price" style={{width:"70%"}} >
                         <h3>Last Price</h3>
@@ -48,7 +50,7 @@ export default function CoinDetail( {d} ) {
                         </div>
                         <div style={{width:"50%"}} className="market-cap effect">
                             <h3>Volume</h3>
-                            <p>9348</p>
+                            <p>{volume}</p>
                         </div>
                     </div>
                     <div className=" sub-div market-cap effect ">

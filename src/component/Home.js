@@ -21,8 +21,8 @@ export default function Home() {
                 market_cap ,  //volume.1d
                 rank 
             } = data[0];
-        //    const {volume} = data.1d;
-            const newData = { id, name, logo_url, price, price_date ,market_cap,rank}
+           const {volume,price_change} = data[0]['1d'];
+            const newData = { id, name, logo_url, price, price_date ,market_cap,rank,volume,price_change}
             setD(newData);
         }
         catch (error) {
@@ -52,11 +52,26 @@ export default function Home() {
                         <div className="display-input effect-display">
                         <img className="small-img" src={d.logo_url}></img>
                         <h3>{d.name}</h3>
-                        <p>({d.id})</p>
                         <p>$ {d.price}</p>
-                        {/* <p>{d.volume}</p> */}
-                    </div>
-                   
+                        </div>
+                        
+                        {/* <div className="display-input effect-display">
+                        <img className="small-img" src={d.logo_url}></img>
+                        <h3>{d.name}</h3>
+                        <p>$ {d.price}</p>
+                        </div>
+                        <div className="display-input effect-display">
+                        <img className="small-img" src={d.logo_url}></img>
+                        <h3>{d.name}</h3>
+                        <p>$ {d.price}</p>
+                        </div>
+                        <div className="display-input effect-display">
+                        <img className="small-img" src={d.logo_url}></img>
+                        <h3>{d.name}</h3>
+                        <p>$ {d.price}</p>
+                        </div> */}
+       
+                        
             </div>
                 
             </div>

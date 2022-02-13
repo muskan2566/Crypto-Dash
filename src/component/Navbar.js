@@ -13,7 +13,7 @@ export default function navbar() {
             
               <ul className=" nav-list">
                    {/* <li><h5>Contact me</h5></li>  */}
-                  <a href="https://www.linkedin.com/in/muskan-kushwah-a44143204/" terget="_blank" className="li"><li><i class="fab effect-nav fa-2x fa-linkedin-in"></i></li></a>
+                  <a href="https://www.linkedin.com/in/muskan-kushwah-a44143204/" trget="_blank" className="li"><li><i class="fab effect-nav fa-2x fa-linkedin-in"></i></li></a>
                   <a href="https://github.com/muskan2566" target="_blank" className="li"><li><i class="effect-nav fab fa-2x fa-github"></i></li></a>
               </ul>
           </div>
