@@ -50,7 +50,7 @@ export default function Home() {
                    <button type="button" className="enter-button effect-search" onClick={handlechange}><i class="fas fa-search"></i></button>
                  
                         <div className="display-input effect-display">
-                        <img className="small-img" src={d.logo_url}></img>
+                        <img className="small-img" src={d.logo_url} alt=""></img>
                         <h3>{d.name}</h3>
                         <p>$ {d.price}</p>
                         </div>

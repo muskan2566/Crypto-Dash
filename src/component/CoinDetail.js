@@ -1,6 +1,6 @@
 import React from 'react'
-import Image from './download.png'
-import PriceGraph from './graph.jpg'
+// import Image from './download.png'
+// import PriceGraph from './graph.jpg'
 export default function CoinDetail( {d} ) {
     const {
         id,
@@ -20,7 +20,7 @@ export default function CoinDetail( {d} ) {
                 {/* 1st-section */}
                 <div style={{width:"50%",marginLeft:"3%"}}>
                     <div className="symbole-div">
-                        <img className="currency-icon" src={logo_url} alt="coin-image.."></img>
+                        <img className="currency-icon" src={logo_url} alt="coin"/>
                         <div className="symbole-name">
                             <h1>{name}</h1>
                             <h2>{id}</h2>
