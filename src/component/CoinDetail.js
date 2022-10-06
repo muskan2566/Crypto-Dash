@@ -21,14 +21,14 @@ export default function CoinDetail( {d} ) {
                 {/* 1st-section */}
                 <div style={{width:"50%",marginLeft:"3%"}}>
                     <div style={{width:"50%",marginLeft:"3%"}} className="symbole-div">
-                        <img className="currency-icon" src={logo_url} alt="coin"/>
+                        <img  className="currency-icon" src={logo_url} alt="coin"/>
                         <div className="symbole-name">
                             <h1>{name}</h1>
-                            <h2>{id}</h2>
+                            <h3>{id}</h3>
                         </div>
                     </div>
-                    <div  className='effect price sub-div'>
-                        <div className='last-price'>
+                    <div style={{width:"90%"}} className='effect price sub-div'>
+                        <div  style={{width:"45%"}}className='last-price'>
                             <h3>Last Price</h3>
                             <p>${price}</p>
                         </div>
@@ -38,23 +38,23 @@ export default function CoinDetail( {d} ) {
                         </div>
                     </div>
                     
-                </div>
+               </div> 
 
                 {/* 2nd-section */}
                 <div style={{width:"50%"}}>
-                    <div className="sub-div">
-                        <div  style={{width:"50%"}} className="market-cap effect">
+                    <div style={{width:"100%"}} className="sub-div">
+                        <div  style={{width:"40%"}} className="market-cap effect">
                             <h3>Rank</h3>
                             <p>{rank}</p>
                         </div>
-                        <div style={{width:"50%"}} className="market-cap effect">
+                        <div style={{width:"60%"}} className="market-cap effect">
                             <h3>Volume</h3>
                             <p>{volume}</p>
                         </div>
                     </div>
-                    <div className=" sub-div market-cap effect ">
+                    <div style={{width:"80%"}}  className=" sub-div market-cap effect ">
                         <div className="market-cap"><i className=" market-icon fa-2x far fa-chart-bar"></i></div>
-                       <div>
+                        <div style={{width:"50%"}}>
                         <h3> Market cap </h3>
                         <p>{market_cap} </p>
                         </div>

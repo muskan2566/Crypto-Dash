@@ -66,10 +66,11 @@
 .market-cap{
     padding: 2%;
     margin: 8%;
+
     text-align: center;
 }
 .market-icon{
-    color: rgb(10, 5, 43);
+    color: rgb(25, 133, 52);
 }
 .block{
     display: block;
@@ -154,11 +155,12 @@
     width: 6px; 
  }
 
-*::-webkit-scrollbar-track {
-  background-color: black;
-}
+/* *::-webkit-scrollbar-track {
+
+    background-color: rgb(27, 27, 61);
+} */
 
 *::-webkit-scrollbar-thumb {
-  background: #4e4e4e;
+  /* background:  rgb(27, 27, 61); */
   border-radius: 25px;
 }
