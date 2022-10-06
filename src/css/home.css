@@ -1,14 +1,16 @@
 .effect{
     background: rgba(65, 70, 117, 0.25);
-    box-shadow: 0 8px 15px 0 #515181;
+    box-shadow: 0 8px 15px 0 #171725;
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
+}
+.effect-inchange{
+    background: rgba(65, 70, 117, 0.25);
+    box-shadow: 0 8px 15px 0 #1a1a3b;
     
 }
-.nav-icon{
-    color: rgb(240, 123, 102);
-}
+
 .nav-list{
     border-right:rgb(255, 255, 255);
     list-style: none;
@@ -63,31 +65,15 @@
 }
 .market-cap{
     padding: 2%;
-    margin: 7%;
+    margin: 8%;
     text-align: center;
 }
 .market-icon{
     color: rgb(10, 5, 43);
 }
-.price-graph{
-    text-align: center;
-    padding: 1%;
-    margin: 0% 7%;
+.block{
+    display: block;
 }
-.graph{
-    height: 100px;
-    width: 250px;
-}
-.changeprice-icon1{
-    color: green;
-    margin-left: 30%;
-}
-.changeprice-icon2{
-    margin-left: 30%;
-    color: rgb(218, 32, 32)
-
-}
-
 .effect-price{
     background: rgba(71, 75, 112, 0.25);
     box-shadow: 0 8px 10px 0 #020313;
@@ -99,17 +85,29 @@
     margin-left: 15%;
 }
 .last-price{
-    margin: 2.5%;
+    /* margin: 2.5%; */
+    margin: 2%;
+}
+.color{
+    color: rgb(14, 2, 2);
+    font-size: 15px;
 }
 .price{
-    margin: 5%;
+    margin: 4%  5%;
+    text-align: center;
+}
+.price-chng{
+    margin-left: 6% ;
+    color: rgb(8, 7, 7);
+    
 }
 .search-div{
     padding: 2%;
-    height: 500px;
-    width: 24%;
+    height: 510px;
+    width: 27%;
     margin-left: 2%;
     text-align: center;
+   
 }
 .search-input{
     padding: 5% 11%;
@@ -118,6 +116,12 @@
     border: none;
    
 }
+.scroll-effect{
+    overflow: auto !important;
+    height: 400px;
+    
+}
+
 .enter-button{
     margin-left: 3%;
     padding: 4.2%;
@@ -128,7 +132,6 @@
     padding: 0% 4%;
     color: rgb(180, 187, 194);
     border: none;
-    overflow: hidden;
 }
 .display-input>p{
     padding: 2%;
@@ -141,9 +144,21 @@
     border-radius: 1px;
 }
 .effect-search{
-     background: rgba(71, 75, 112, 0.25);
+    background: rgba(71, 75, 112, 0.25);
     box-shadow: 0 8px 10px 0 #0f112e;
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
+}
+*::-webkit-scrollbar {
+    width: 6px; 
+ }
+
+*::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #4e4e4e;
+  border-radius: 25px;
 }
